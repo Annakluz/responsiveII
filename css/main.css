@@ -52,3 +52,20 @@ img{
     
 }
 
+@media (min-width: 0px) and (max-width: 420px){
+    .contGato{
+        background-image: url(../img/maxresdefault.jpg);
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+    }
+    
+    .gato {
+        background-image: url(../img/kitten-small.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+        
+    
+}
+
